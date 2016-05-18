@@ -235,13 +235,7 @@
 #pragma mark - Configure Expand Center Point
 
 - (void)setPathCenterButtonBloomCenter:(CGPoint)centerButtonBloomCenter {
-    
-    // Just set the bloom center once
-    //
-    if (_pathCenterButtonBloomCenter.x == 0) {
-        _pathCenterButtonBloomCenter = centerButtonBloomCenter;
-    }
-    return ;
+    _pathCenterButtonBloomCenter = centerButtonBloomCenter;
 }
 
 - (void)setAllowSounds:(BOOL)soundsEnable {
